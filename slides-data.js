@@ -45,7 +45,7 @@ const slides = [
   {
     type:"statement",
     text:"That small idea became QuantumNet.",
-    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjEt8JfIPXJ7lZWq3Goxv46w-vfyYekjvZghOLwoa78FUwJLBKT7_SV81-&s=10"
+    img:"https://www.accessgambia.com/biz/large/quantumnet-kairaba-avenue.jpg"
   },
   {
     type:"narrative",
@@ -55,7 +55,7 @@ const slides = [
   {
     type:"statement",
     text:"QCell.",
-    img:"https://gamjobs.com/wp-content/uploads/2024/08/logo-200x200.jpg"
+    img:"https://www.wavetec.com/wp-content/uploads/2026/05/QCELL-Case-study.png"
   },
   {
     type:"narrative",
@@ -70,11 +70,11 @@ const slides = [
   {
     type:"narrative",
     text:"...to building businesses that expanded beyond The Gambia.",
-    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxEsBL-1umi3zCqgM9_R95O46inh0xBniTOJDLYYd7iNT-TmTrvZZxhn8&s=10"
+    img:"https://www.accessgambia.com/biz/large/qcell-house-kairaba-avenue-serrekunda.jpg"
   },
   {
   type:"final",
-  text:"Today, Muhammed Jah is one of The Gambia's most successful entrepreneurs, with an alleged net worth of <em>GMD 10 billion+</em>. <span class=\"flag\">🇬🇲</span>",
+  text:"Today, Muhammed Jah is one of The Gambia's most successful entrepreneurs, with an alleged net worth of <em>GMD 10 billion</em>. <span class=\"flag\"></span>",
   img:"https://standard.gm/wp-content/uploads/2025/12/Gambian-CEO-Muhammed-Jah-e1764842978249.jpeg"
 }
   // Example of a local repo image instead of a URL:
