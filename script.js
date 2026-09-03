@@ -1,6 +1,6 @@
 // ═════════════════════════════════════════════════════════════════════════
 // ENGINE — generic slideshow logic, shared across all success-story projects.
-// Do NOT put story content here. Edit slides-data.js instead.
+// Don't put story content here. Edit slides-data.js instead.
 // Expects `slides` and `IMAGE_BASE_PATH` to already be defined by slides-data.js,
 // which must be loaded via <script> BEFORE this file in index.html.
 // ═════════════════════════════════════════════════════════════════════════
