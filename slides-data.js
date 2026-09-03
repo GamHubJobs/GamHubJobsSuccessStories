@@ -20,62 +20,62 @@ const slides = [
   {
     type:"statement",
     text:"He started with just 4 employees.",
-    img:"https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1600&q=80"
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSFV5-7uIurMHxfz1v3I09U8_DyEBNp2iHGDWrjcPckgW76TYFY2t-_uE&s=10"
   },
   {
     type:"narrative",
     text:"In the late 1990s, a simple question changed his life.",
-    img:"https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1600&q=80"
+    img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnJGFoFJyiW-MpwKQ10aQnkzOXWa_HizrK6zK0TI1lqjZIpihLtc9qxEEr4muQt7zH5wTqlkgSMGZ1HGhA5GmhOcYkzGM3w2Wj00TECiqj7elkzvL8sGlELegAo_bWaEwRnsnqnHSVeVI/s1600/muhammed+jah-s.jpg"
   },
   {
     type:"narrative",
     text:"Why was someone coming all the way from Europe to teach Gambians how to use a computer?",
-    img:"https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=1600&q=80"
+    img:"https://africanshapers.com/wp-content/uploads/2018/08/MJa3.jpg"
   },
   {
     type:"statement",
     text:"He saw an opportunity.",
-    img:"https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1600&q=80"
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTknE1Ez_ZXwthuJLcG5p58cq3_inUSlpdgyXFFryHmRLu9kia3ss-6oRM&s=10"
   },
   {
     type:"statement",
     text:"So he started teaching people computing.",
-    img:"https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1600&q=80"
+    img:"https://www.developafrica.org/files/girls%20with%20computer%20training.JPG"
   },
   {
     type:"statement",
     text:"That small idea became QuantumNet.",
-    img:"https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80"
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjEt8JfIPXJ7lZWq3Goxv46w-vfyYekjvZghOLwoa78FUwJLBKT7_SV81-&s=10"
   },
   {
     type:"narrative",
     text:"Then came telecommunications...",
-    img:"https://images.unsplash.com/photo-1509395176047-4a66953fd231?w=1600&q=80"
+    img:"https://theciotimes.com/wp-content/uploads/2021/03/TELECOM1.jpg"
   },
   {
     type:"statement",
     text:"QCell.",
-    img:"https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1600&q=80"
+    img:"https://gamjobs.com/wp-content/uploads/2024/08/logo-200x200.jpg"
   },
   {
     type:"narrative",
-    text:"And eventually, an <span class=\"highlight\">entire business ecosystem</span>.",
-    img:"https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80"
+    text:"And eventually, an <span class=\"highlight\">entire business ecosystem, Q-GROUP</span>.",
+    img:"https://qanet.gm/storage/slider/the-qgroup-2025-08-26-68acc43143db0.jpg"
   },
   {
     type:"statement",
     text:"From a small computer-training operation...",
-    img:"https://images.unsplash.com/photo-1573164713988-8665fc963095?w=1600&q=80"
+    img:"https://www.developafrica.org/files/girls%20with%20computer%20training.JPG"
   },
   {
     type:"narrative",
     text:"...to building businesses that expanded beyond The Gambia.",
-    img:"https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600&q=80"
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxEsBL-1umi3zCqgM9_R95O46inh0xBniTOJDLYYd7iNT-TmTrvZZxhn8&s=10"
   },
   {
     type:"final",
-    text:"What can <em>YOU</em> build from a small idea? <span class=\"flag\">🇬🇲</span>",
-    img:"https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=1600&q=80"
+    text:"Today, Muhammed Jah is one of The Gambia's most successful entrepreneurs, with an alleged net worth of <em>GMD 10 billion+</em>. <span class="flag">🇬🇲</span>",
+    img:"https://standard.gm/wp-content/uploads/2025/12/Gambian-CEO-Muhammed-Jah-e1764842978249.jpeg"
   }
   // Example of a local repo image instead of a URL:
   // { type:"statement", text:"Example local image.", img:"founder-portrait.jpg" }
