@@ -1,65 +1,21 @@
-const slides = [
-  {
-    type:"statement",
-    text:"He started with just 4 employees.",
-    img:"https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1600&q=80"
-  },
-  {
-    type:"narrative",
-    text:"In the late 1990s, a simple question changed his life.",
-    img:"https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1600&q=80"
-  },
-  {
-    type:"narrative",
-    text:"Why was someone coming all the way from Europe to teach Gambians how to use a computer?",
-    img:"https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=1600&q=80"
-  },
-  {
-    type:"statement",
-    text:"He saw an opportunity.",
-    img:"https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1600&q=80"
-  },
-  {
-    type:"statement",
-    text:"So he started teaching people computing.",
-    img:"https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1600&q=80"
-  },
-  {
-    type:"statement",
-    text:"That small idea became QuantumNet.",
-    img:"https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80"
-  },
-  {
-    type:"narrative",
-    text:"Then came telecommunications...",
-    img:"https://images.unsplash.com/photo-1509395176047-4a66953fd231?w=1600&q=80"
-  },
-  {
-    type:"statement",
-    text:"QCell.",
-    img:"https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1600&q=80"
-  },
-  {
-    type:"narrative",
-    text:"And eventually, an <span class=\"highlight\">entire business ecosystem</span>.",
-    img:"https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80"
-  },
-  {
-    type:"statement",
-    text:"From a small computer-training operation...",
-    img:"https://images.unsplash.com/photo-1573164713988-8665fc963095?w=1600&q=80"
-  },
-  {
-    type:"narrative",
-    text:"...to building businesses that expanded beyond The Gambia.",
-    img:"https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600&q=80"
-  },
-  {
-    type:"final",
-    text:"What can <em>YOU</em> build from a small idea? <span class=\"flag\">🇬🇲</span>",
-    img:"https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=1600&q=80"
-  }
-];
+// ═════════════════════════════════════════════════════════════════════════
+// ENGINE — generic slideshow logic, shared across all success-story projects.
+// Do NOT put story content here. Edit slides-data.js instead.
+// Expects `slides` and `IMAGE_BASE_PATH` to already be defined by slides-data.js,
+// which must be loaded via <script> BEFORE this file in index.html.
+// ═════════════════════════════════════════════════════════════════════════
+
+function resolveImageSrc(path){
+  if(!path) return "";
+  // Full remote URL (http/https) or protocol-relative URL
+  if(/^(https?:)?\/\//i.test(path)) return path;
+  // Already absolute or explicitly relative — use as-is
+  if(path.startsWith("/") || path.startsWith("./") || path.startsWith("../")) return path;
+  // data: URIs (embedded images) — use as-is
+  if(path.startsWith("data:")) return path;
+  // Otherwise treat it as a local filename/path inside IMAGE_BASE_PATH
+  return IMAGE_BASE_PATH + path;
+}
 
 const frame = document.getElementById('frame');
 const timeline = document.getElementById('timeline');
@@ -74,8 +30,10 @@ slides.forEach((s, i) => {
 
   const textClass = s.type === 'narrative' ? 'narrative' : 'statement';
 
+  const imgSrc = resolveImageSrc(s.img);
+
   el.innerHTML = `
-    <img class="slide-img" src="${s.img}" alt="" />
+    <img class="slide-img" src="${imgSrc}" alt="" onerror="this.onerror=null;this.classList.add('img-missing');console.warn('Slide ${i+1}: image failed to load ->', '${imgSrc}');" />
     <div class="scrim"></div>
     <div class="grain"></div>
     <div class="vignette"></div>
