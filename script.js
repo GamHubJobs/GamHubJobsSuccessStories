@@ -37,9 +37,6 @@ slides.forEach((s, i) => {
     <div class="scrim"></div>
     <div class="grain"></div>
     <div class="vignette"></div>
-    <div class="meta-bar">
-      <div class="timecode">${String(i+1).padStart(2,'0')} / ${String(slides.length).padStart(2,'0')}</div>
-    </div>
     <div class="caption">
       <div class="caption-inner">
         <div class="${textClass}">${s.text}</div>
@@ -80,9 +77,6 @@ function restartAuto(){
   clearTimeout(autoTimer);
   autoTimer = setTimeout(next, AUTO_MS);
 }
-
-document.getElementById('nextBtn').addEventListener('click', next);
-document.getElementById('prevBtn').addEventListener('click', prev);
 
 document.addEventListener('keydown', (e) => {
   if(e.key === 'ArrowRight') next();
