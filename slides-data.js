@@ -74,8 +74,8 @@ const slides = [
   },
   {
     type:"final",
-    text:"Today, Muhammed Jah is one of The Gambia's most successful entrepreneurs, with an alleged net worth of <em>GMD 10 billion+</em>. <span class="flag">🇬🇲</span>",
-    img:"https://standard.gm/wp-content/uploads/2025/12/Gambian-CEO-Muhammed-Jah-e1764842978249.jpeg"
+    text:"What can <em>YOU</em> build from a small idea? <span class=\"flag\">🇬🇲</span>",
+    img:"https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=1600&q=80"
   }
   // Example of a local repo image instead of a URL:
   // { type:"statement", text:"Example local image.", img:"founder-portrait.jpg" }
