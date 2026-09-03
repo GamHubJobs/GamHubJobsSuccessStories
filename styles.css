@@ -74,6 +74,11 @@ html,body{
   transform:scale(1);
 }
 
+.slide-img.img-missing{
+  background:#1a1a1a linear-gradient(135deg, #232323 25%, transparent 25%, transparent 50%, #232323 50%, #232323 75%, transparent 75%, transparent);
+  background-size:24px 24px;
+}
+
 .scrim{
   position:absolute;
   inset:0;
