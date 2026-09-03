@@ -35,7 +35,7 @@ const slides = [
   {
     type:"statement",
     text:"He saw an opportunity.",
-    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTknE1Ez_ZXwthuJLcG5p58cq3_inUSlpdgyXFFryHmRLu9kia3ss-6oRM&s=10"
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGHgopG3l6b2IeXrIoP2Lg-s-zv5Bf8YWAb9YBOGFyb-C41k2ax3yCekoy&s=10"
   },
   {
     type:"statement",
