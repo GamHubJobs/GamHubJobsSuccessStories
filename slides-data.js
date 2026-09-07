@@ -45,7 +45,7 @@ const slides = [
   {
     type:"statement",
     text:"TAF Construction Company Limited.",
-    img:"https://www.tafafricaglobal.com/static/media/logo.9aa5c2f8.png"
+    img:"https://www.my-gambia.com/wp-content/uploads/Featured-photos-magazine-TAF-AFRICA-GLOBAL.jpg"
   },
   {
     type:"narrative",
