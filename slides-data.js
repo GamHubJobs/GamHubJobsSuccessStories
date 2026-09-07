@@ -45,7 +45,7 @@ const slides = [
   {
     type:"statement",
     text:"TAF Construction Company Limited.",
-    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1KMdqApLde3uSixkZSyi7ABQsBPU3HAYSkLpAH9rvaf7L-JZ7HMkyIZFc&s=10"
+    img:"https://www.tafafricaglobal.com/static/media/logo.9aa5c2f8.png"
   },
   {
     type:"narrative",
