@@ -45,7 +45,7 @@ const slides = [
   {
     type:"statement",
     text:"TAF Construction Company Limited.",
-    img:"https://www.auhf.co.za/wp-content/uploads/2022/12/9352149B-4034-45AC-B0C0-AF3CEAA6F3B0_4_5005_c.jpeg"
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1KMdqApLde3uSixkZSyi7ABQsBPU3HAYSkLpAH9rvaf7L-JZ7HMkyIZFc&s=10"
   },
   {
     type:"narrative",
@@ -61,11 +61,6 @@ const slides = [
     type:"narrative",
     text:"From there, the company began expanding from construction into large-scale real estate development.",
     img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzucniZucsh0q3uVAIiATLbpHUsL4uIFjGLUzh8dhVmRvVznpLZiuizw2o&s=10"
-  },
-  {
-    type:"narrative",
-    text:"What started in The Gambia eventually crossed borders",
-    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj5Ao6im9RUbkYaEOsDuz93ZsYQia08N6Yr99eIKAbd0CQLe2DrBiG7E8&s=10"
   },
   {
     type:"narrative",
