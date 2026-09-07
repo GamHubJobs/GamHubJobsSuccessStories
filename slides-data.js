@@ -19,64 +19,67 @@ const IMAGE_BASE_PATH = "images/"; // change to match this story's image folder
 const slides = [
   {
     type:"statement",
-    text:"He started with just 4 employees.",
-    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSFV5-7uIurMHxfz1v3I09U8_DyEBNp2iHGDWrjcPckgW76TYFY2t-_uE&s=10"
+    text:"From 'Carpenter' to African Real Estate Giant.",
+    img:"https://pbs.twimg.com/profile_images/1363595078082715649/oXDnmogT_400x400.jpg"
   },
   {
     type:"narrative",
-    text:"In the late 1990s, a simple question changed his life.",
-    img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnJGFoFJyiW-MpwKQ10aQnkzOXWa_HizrK6zK0TI1lqjZIpihLtc9qxEEr4muQt7zH5wTqlkgSMGZ1HGhA5GmhOcYkzGM3w2Wj00TECiqj7elkzvL8sGlELegAo_bWaEwRnsnqnHSVeVI/s1600/muhammed+jah-s.jpg"
+    text:"In 1975, He started his construction career working as an engineer's assistant with Balfour Beatty in The Gambia.",
+    img:"https://media.licdn.com/dms/image/v2/C4D22AQFessLhwyM6Cw/feedshare-shrink_1280/feedshare-shrink_1280/0/1671633786535?e=1790208000&v=beta&t=XcNw_sL8GhBXlJrJZ--9CO064t4FoStJnsjs-U18OK0"
   },
   {
     type:"narrative",
-    text:"Why was someone coming all the way from Europe to teach Gambians how to use a computer?",
-    img:"https://africanshapers.com/wp-content/uploads/2018/08/MJa3.jpg"
+    text:"For more than a decade, he worked with major construction companies, gaining the experience that would eventually change his life.",
+    img:"https://media.licdn.com/dms/image/v2/C4E22AQH-vgcbd4BZKg/feedshare-shrink_1280/feedshare-shrink_1280/0/1666013654902?e=1790208000&v=beta&t=zKAg06YnzzmzXc74jKl2DQ04223eks9SnGg9DKUtfTM"
   },
   {
     type:"statement",
-    text:"He saw an opportunity.",
-    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGHgopG3l6b2IeXrIoP2Lg-s-zv5Bf8YWAb9YBOGFyb-C41k2ax3yCekoy&s=10"
-  },
-  {
-    type:"statement",
-    text:"So he started teaching people computing.",
-    img:"https://www.developafrica.org/files/girls%20with%20computer%20training.JPG"
-  },
-  {
-    type:"statement",
-    text:"That small idea became QuantumNet.",
-    img:"https://www.accessgambia.com/biz/large/quantumnet-kairaba-avenue.jpg"
+    text:"Then, in 1990, he took the biggest risk of his career.",
+    img:"https://prod.cdn-medias.theafricareport.com/medias/2025/01/24/0z6a0646-copy-scaled.jpg"
   },
   {
     type:"narrative",
-    text:"Then came telecommunications...",
-    img:"https://theciotimes.com/wp-content/uploads/2021/03/TELECOM1.jpg"
+    text:"He left his job and founded his own company",
+    img:"https://media.licdn.com/dms/image/v2/C4E0BAQGqnMHA6DWfgQ/company-logo_200_200/company-logo_200_200/0/1630628523165/mustapha_njie_taf_logo?e=2147483647&v=beta&t=15XC7_ismET-M5MPVBse2OzzHiYANdClDGkSmOXDYXI"
   },
   {
     type:"statement",
-    text:"QCell.",
-    img:"https://www.wavetec.com/wp-content/uploads/2026/05/QCELL-Case-study.png"
+    text:"TAF Construction Company Limited.",
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1KMdqApLde3uSixkZSyi7ABQsBPU3HAYSkLpAH9rvaf7L-JZ7HMkyIZFc&s=10"
   },
   {
     type:"narrative",
-    text:"And eventually, an <span class=\"highlight\">entire business ecosystem, Q-GROUP</span>.",
-    img:"https://qanet.gm/storage/slider/the-qgroup-2025-08-26-68acc43143db0.jpg"
-  },
-  {
-    type:"statement",
-    text:"From a small computer-training operation...",
-    img:"https://www.developafrica.org/files/girls%20with%20computer%20training.JPG"
+    text:"But Mustapha Njie saw something bigger.",
+    img:"https://yt3.googleusercontent.com/ytc/AIdro_k1OG5QUzFYBgetNghcXwziOubZ9xQOs1LxLBjOXEU9WxEy=s900-c-k-c0x00ffffff-no-rj"
   },
   {
     type:"narrative",
-    text:"...to building businesses that expanded beyond The Gambia.",
-    img:"https://www.accessgambia.com/biz/large/qcell-house-kairaba-avenue-serrekunda.jpg"
+    text:"He wasn't just interested in constructing buildings. He wanted to develop communities.",
+    img:"[TAF ESTATE / HOUSING PHOTO]"
   },
   {
-  type:"final",
-  text:"Today, Muhammed Jah is one of The Gambia's most successful entrepreneurs, with an alleged net worth of <em>GMD 10 billion</em>. <span class=\"flag\"></span>",
-  img:"https://standard.gm/wp-content/uploads/2025/12/Gambian-CEO-Muhammed-Jah-e1764842978249.jpeg"
-}
-  // Example of a local repo image instead of a URL:
-  // { type:"statement", text:"Example local image.", img:"founder-portrait.jpg" }
+    type:"narrative",
+    text:"In 2000, TAF built its first estate in Yarambamba.",
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFds4PuEIYpoJRu7jJuLLF_WdBdMaDrsCnpZ_dR3nS6-YLZabPi7_KdoQ&s=10"
+  },
+  {
+    type:"narrative",
+    text:"From there, the company began expanding from construction into large-scale real estate development.",
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzucniZucsh0q3uVAIiATLbpHUsL4uIFjGLUzh8dhVmRvVznpLZiuizw2o&s=10"
+  },
+  {
+    type:"narrative",
+    text:"What started in The Gambia eventually crossed borders",
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj5Ao6im9RUbkYaEOsDuz93ZsYQia08N6Yr99eIKAbd0CQLe2DrBiG7E8&s=10"
+  },
+  {
+    type:"narrative",
+    text:"With TAF Africa Global expanding its operations across Africa and taking on Multi Million Dollar projects.",
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe-_eO8K0qiIt_eY4xenQK0BqrzEIGLa04Jo41J7BwNbA1Kgw2tgqDPGg&s=10"
+  },
+  {
+    type:"final",
+    text:"Today, Mustapha Njie is one of The Gambia's most successful Real Estate Moguls, with an alleged estimated net worth of <em>6.9 billion Dalasis</em>.",
+    img:"https://pbs.twimg.com/profile_images/1363595078082715649/oXDnmogT_400x400.jpg"
+  }
 ];
