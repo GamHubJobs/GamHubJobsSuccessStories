@@ -40,22 +40,17 @@ const slides = [
   {
     type:"narrative",
     text:"He left his job and founded his own company",
-    img:"https://media.licdn.com/dms/image/v2/C4E0BAQGqnMHA6DWfgQ/company-logo_200_200/company-logo_200_200/0/1630628523165/mustapha_njie_taf_logo?e=2147483647&v=beta&t=15XC7_ismET-M5MPVBse2OzzHiYANdClDGkSmOXDYXI"
+    img:"https://prod.cdn-medias.jeuneafrique.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=1215,fit=cover/https://prod.cdn-medias.jeuneafrique.com/medias/2025/02/12/jad20250212-eco-tar-gambie-immobilier-mustaphanjie.jpg"
   },
   {
     type:"statement",
     text:"TAF Construction Company Limited.",
-    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1KMdqApLde3uSixkZSyi7ABQsBPU3HAYSkLpAH9rvaf7L-JZ7HMkyIZFc&s=10"
+    img:"https://www.auhf.co.za/wp-content/uploads/2022/12/9352149B-4034-45AC-B0C0-AF3CEAA6F3B0_4_5005_c.jpeg"
   },
   {
     type:"narrative",
     text:"But Mustapha Njie saw something bigger.",
     img:"https://yt3.googleusercontent.com/ytc/AIdro_k1OG5QUzFYBgetNghcXwziOubZ9xQOs1LxLBjOXEU9WxEy=s900-c-k-c0x00ffffff-no-rj"
-  },
-  {
-    type:"narrative",
-    text:"He wasn't just interested in constructing buildings. He wanted to develop communities.",
-    img:"[TAF ESTATE / HOUSING PHOTO]"
   },
   {
     type:"narrative",
@@ -79,7 +74,7 @@ const slides = [
   },
   {
     type:"final",
-    text:"Today, Mustapha Njie is one of The Gambia's most successful Real Estate Moguls, with an alleged estimated net worth of <em>6.9 billion Dalasis</em>.",
-    img:"https://pbs.twimg.com/profile_images/1363595078082715649/oXDnmogT_400x400.jpg"
+    text:"Today, Mustapha Njie is one of The Gambia's most successful Real Estate Moguls, with an alleged net worth of <em>6.9 billion Dalasis</em>.",
+    img:"https://prod.cdn-medias.theafricareport.com/medias/2025/01/24/0z6a0646-copy-scaled.jpg"
   }
 ];
